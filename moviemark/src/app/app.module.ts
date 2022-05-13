@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { RegisterComponent } from './register/register.component';
-import { UpdateProfileComponent } from './update-profile/update-profile.component';
+import { AdminHomePageComponent } from './admin-home-page/admin-home-page.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UpdateProfileComponent } from './update-profile/update-profile.componen
     LoginPageComponent,
     HomepageComponent,
     RegisterComponent,
-    UpdateProfileComponent
+    AdminHomePageComponent,
+    EditProfileComponent
   ],
   imports: [
     BrowserModule,
