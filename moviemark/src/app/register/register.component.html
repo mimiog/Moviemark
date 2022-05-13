@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Register Form Start</title>
+  </head>
+
+  <body>
+
+    <form class="signup-form" action="/register" method="post">
+
+            <!-- form header -->
+            <div class="form-header">
+                <h1>Register</h1>
+              </div>
+            <!-- form body -->
+            <div class="form-body">
+
+                <!-- Firstname and Lastname -->
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="firstname" class="label-title">First Name</label>
+                        <input type="text" id="firstname" class="form-input" placeholder="Firstname" required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="lastname" class="label-title">Last Name</label>
+                        <input type="text" id="lastname" class="form-input" placeholder="Lastname" />
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="email" class="label-title">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Email" required="required">
+                </div>
+                <div class="form-group right">
+                    <label for="lastname" class="label-title">Username</label>
+                    <input type="text" id="lastname" class="form-input" placeholder="Username" />
+                </div>
+
+                <div class="horizontal-group">
+                
+                    <div class="form-group left">
+                    <label for="password" class="label-title">Password </label>
+                    <input type="password" id="password" class="form-input" placeholder="Password" required="required">
+                    </div>
+                </div>
+
+            
+            </div>
+            <div class="form-footer">
+                <button type="submit" class="btn" routerLink="/login" routerLinkActive="active">Register</button>
+            </div>
+        
+    </form>
+
+  </body>
+</html>
